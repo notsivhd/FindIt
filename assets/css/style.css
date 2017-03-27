@@ -601,3 +601,8 @@ body {
 .navigation-slide {
 	cursor: pointer;
 }
+
+#yo{
+	width: 500px;
+	height: 500px;
+}

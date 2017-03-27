@@ -43,9 +43,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<ul class="nav row">
 					<li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">HOME</span></a></li>
 					<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-user"></span> <span class="text">ABOUT US</span></a></li>
-					<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-3" href="#slide-3" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">PORTFOLIO</span></a></li>
-					<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="icon icon-gears"></span> <span class="text">PROCESS</span></a></li>
-					<li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-heart"></span> <span class="text">CLIENTS</span></a></li>
+					<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="icon icon-gears"></span> <span class="text">SERVICE</span></a></li>
+					<li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-heart"></span> <span class="text">JOIN US</span></a></li>
+					<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="icon icon-off"></span> <span class="text">LOG IN</span></a></li>
 					<li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">CONTACT</span></a></li>
 				</ul>
 				<div class="row">
@@ -67,9 +67,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div><!-- /col-12 -->
 			</div><!-- /row -->
 			<div id="home-row-2" class="row clearfix">
-				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="4"><?php echo img('assets/images/s02.png'); ?></div><span>PROFESSIONAL</span></div>
-				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="3"><?php echo img('assets/images/s01.png'); ?></div><span>FRIENDLY</span></div>
-				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="5"><?php echo img('assets/images/s03.png'); ?></div><span>SUITABLE</span></div>
+				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" ><?php echo img('assets/images/s02.png'); ?></div><span>PROFESSIONAL</span></div>
+				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" ><?php echo img('assets/images/s01.png'); ?></div><span>FRIENDLY</span></div>
+				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" ><?php echo img('assets/images/s03.png'); ?></div><span>SUITABLE</span></div>
 			</div><!-- /row -->
 		</div><!-- /container -->
 	</div><!-- /slide1 -->
@@ -78,7 +78,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="slide story" id="slide-2" data-slide="2">
 		<div class="container">
 			<div class="row title-row">
-				<div class="col-12 font-thin">Contrary to popular belief, <span class="font-semibold">Lorem Ipsum</span> is not simply random text.</div>
+				<div class="col-12 font-thin">We have <span class="font-semibold">the best</span> idevelopment team.</div>
 			</div><!-- /row -->
 			<div class="row line-row">
 				<div class="hr">&nbsp;</div>
@@ -89,23 +89,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="row content-row">
 				<div class="col-12 col-lg-3 col-sm-6">
 					<p><i class="icon icon-eye-open"></i></p>
-					<h2 class="font-thin">Visual <span class="font-semibold">Identity</span></h2>
-					<h4 class="font-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+					<h2 class="font-thin">User <span class="font-semibold">Experience</span></h2>
+					<h4 class="font-thin">We perform the best test to achieve the best experience for our users</h4>
 				</div><!-- /col12 -->
 				<div class="col-12 col-lg-3 col-sm-6">
 					<p><i class="icon icon-laptop"></i></p>
 					<h2 class="font-thin">Web <span class="font-semibold">Design</span></h2>
-					<h4 class="font-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+					<h4 class="font-thin">Acording to the test results, we focus our design in our users needs.</h4>
 				</div><!-- /col12 -->
 				<div class="col-12 col-lg-3 col-sm-6">
 					<p><i class="icon icon-tablet"></i></p>
 					<h2 class="font-thin">Mobile <span class="font-semibold">Apps</span></h2>
-					<h4 class="font-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+					<h4 class="font-thin">Our web products are suitable in any platform.</h4>
 				</div><!-- /col12 -->
 				<div class="col-12 col-lg-3 col-sm-6">
 					<p><i class="icon icon-pencil"></i></p>
 					<h2 class="font-semibold">Development</h2>
-					<h4 class="font-thin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+					<h4 class="font-thin">We don't focus all our work in design, also we do performance.</h4>
 				</div><!-- /col12 -->
 			</div><!-- /row -->
 		</div><!-- /container -->
@@ -115,42 +115,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="slide story" id="slide-4" data-slide="4">
 		<div class="container">
 			<div class="row title-row">
-				<div class="col-12 font-thin">See us <span class="font-semibold">at work</span></div>
+				<div class="col-12 font-thin">Our <span class="font-semibold">Services</span></div>
 			</div><!-- /row -->
 			<div class="row line-row">
 				<div class="hr">&nbsp;</div>
 			</div><!-- /row -->
 			<div class="row subtitle-row">
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-10 font-light">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</div>
+				<div class="col-12 col-sm-10 font-light">The services that El pipiripao offers for Find it are:</div>
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
 			</div><!-- /row -->
 			<div class="row content-row">
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-2">
-					<p><i class="icon icon-bolt"></i></p>
-					<h2 class="font-thin">Listening to<br><span class="font-semibold" >your needs</span></h2>
-					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
+				<div class="col-12 col-md-2">
+					<p><i class="icon icon-camera"></i></p>
+					<h2 class="font-thin">UPLOAD <br><span class="font-semibold" >pictures</span></h2>
+					<h4 class="font-thin">You can upload photos, both lost items as a profile photo.</h4>
 				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2">
+				<div class="col-12 col-md-2">
 					<p><i class="icon icon-cog"></i></p>
-					<h2 class="font-thin">Project<br><span class="font-semibold">discovery</span></h2>
-					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
+					<h2 class="font-thin">WEB<br><span class="font-semibold">maintenance</span></h2>
+					<h4 class="font-thin">This page has maintained by us , in case of any failure please let us know.</h4>
 				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2">
+				<div class="col-12 col-md-2">
 					<p><i class="icon icon-cloud"></i></p>
-					<h2 class="font-thin">Storming<br><span class="font-semibold">our brains</span></h2>
-					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
-				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2">
-					<p><i class="icon icon-map-marker"></i></p>
-					<h2 class="font-thin">Getting<br><span class="font-semibold">there</span></h2>
-					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
-				</div><!-- /col12 -->
-				<div class="col-12 col-sm-2">
-					<p><i class="icon icon-gift"></i></p>
-					<h2 class="font-thin">Delivering<br><span class="font-semibold">the product</span></h2>
-					<h4 class="font-thin">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h4>
+					<h2 class="font-thin">CLOUD<br><span class="font-semibold">system</span></h2>
+					<h4 class="font-thin">This web service has the option to display uploaded objects by other users and in turn can claim an object as yours by contacting the person who uploaded the object you choose.</h4>
 				</div><!-- /col12 -->
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
 			</div><!-- /row -->
@@ -161,26 +151,41 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="slide story" id="slide-5" data-slide="5">
 		<div class="container">
 			<div class="row title-row">
-				<div class="col-12 font-thin"><span class="font-semibold">Clients</span> we’ve worked with</div>
+				<div class="col-12 font-thin"><span class="font-semibold">REGISTER</span> to use FindIt, it's free!</div>
 			</div><!-- /row -->
 			<div class="row line-row">
 				<div class="hr">&nbsp;</div>
 			</div><!-- /row -->
 			<div class="row subtitle-row">
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-10 font-light">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. <br/><br/> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero.</div>
+				<div class="col-12 col-sm-10 font-light">If you want to use our service please, enter your data!</div>
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
 			</div><!-- /row -->
-			<div class="row content-row">
-				<div class="col-1 col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-2"><img src="images/client01.png" alt=""></div>
-				<div class="col-12 col-sm-2"><img src="images/client02.png" alt=""></div>
-				<div class="col-12 col-sm-2"><img src="images/client03.png" alt=""></div>
-				<div class="col-12 col-sm-2"><img src="images/client04.png" alt=""></div>
-				<div class="col-12 col-sm-2"><img src="images/client05.png" alt=""></div>
-				<div class="col-1 col-sm-1 hidden-sm">&nbsp;</div>
-			</div><!-- /row -->
+			<form>
+				<div class="form-group">
+					<div class="col-3">
+						<label for="email">Email address</label>
+					    <input type="email" class="form-control" id="email" placeholder="Enter email">
+					    <span class="font-semibold"></span>We'll never share your email with anyone else.
+					</div>
+					<div class="col-3">
+						<label for="name">Enter your name</label>
+					    <input type="text" class="form-control" id="name" placeholder="Enter name">
+					</div>
+					<div class="col-3">
+						<label for="password">Enter your password</label>
+					    <input type="password" class="form-control" id="password" placeholder="Enter your password">
+					    <span class="font-semibold"></span>We'll never share your password with anyone else.
+					</div>
+					<div class="col-3">
+						<label for="passwordcheck">Enter your password</label>
+					    <input type="password" class="form-control" id="passwordcheck" placeholder="Verify your password">
+					</div>
+				</div>
+			</form>
 		</div><!-- /container -->
+		<br>
+		<button type="button" class="btn btn-warning">REGISTER</button>
 	</div><!-- /slide5 -->
 	
 	<!-- === Slide 6 / Contact === -->
@@ -194,30 +199,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div><!-- /row -->
 			<div class="row subtitle-row">
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-10 font-light">You can find us literally anywhere, just push a button and we’re there</div>
+				<div class="col-12 col-sm-10 font-light">We will be pleased to hear your comments, you can find us in links bellow</div>
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
 			</div><!-- /row -->
 			<div id="contact-row-4" class="row">
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
 				<div class="col-12 col-sm-2 with-hover-text">
 					<p><a target="_blank" href="#"><i class="icon icon-phone"></i></a></p>
-					<span class="hover-text font-light ">+44 4839-4343</span></a>
+					<span class="hover-text font-light ">442 146 0944</span></a>
 				</div><!-- /col12 -->
 				<div class="col-12 col-sm-2 with-hover-text">
 					<p><a target="_blank" href="#"><i class="icon icon-envelope"></i></a></p>
-					<span class="hover-text font-light ">munter@blacktie.co</span></a>
+					<span class="hover-text font-light ">A01205724@itesm.mx</span></a>
 				</div><!-- /col12 -->
 				<div class="col-12 col-sm-2 with-hover-text">
 					<p><a target="_blank" href="#"><i class="icon icon-home"></i></a></p>
-					<span class="hover-text font-light ">London, England<br>zip code 98443</span></a>
+					<span class="hover-text font-light ">Querétaro, Querétaro<br>México</span></a>
 				</div><!-- /col12 -->
 				<div class="col-12 col-sm-2 with-hover-text">
 					<p><a target="_blank" href="#"><i class="icon icon-facebook"></i></a></p>
-					<span class="hover-text font-light ">facebook/blacktie_co</span></a>
+					<span class="hover-text font-light ">www.facebook.com/luispablo.moralescruz</span></a>
 				</div><!-- /col12 -->
 				<div class="col-12 col-sm-2 with-hover-text">
 					<p><a target="_blank" href="#"><i class="icon icon-twitter"></i></a></p>
-					<span class="hover-text font-light ">@BlackTie_co</span></a>
+					<span class="hover-text font-light ">@Elpipiripao</span></a>
 				</div><!-- /col12 -->
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
 			</div><!-- /row -->
