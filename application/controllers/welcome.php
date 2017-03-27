@@ -23,6 +23,7 @@ class Welcome extends CI_Controller {
 		$this->load->helper('html');
 		$this->load->helper('url');
 		$this->load->helper('form');
+		$this->load->model('finditmodeluno');
 	}
 
 	public function index()
@@ -38,5 +39,6 @@ class Welcome extends CI_Controller {
 			'password' => $this->input->post('password'),
 			'passwordcheck' => $this->input->post('passwordcheck')
 		);
+		$this->finditmodeluno->createUser($data);
 	}
 }

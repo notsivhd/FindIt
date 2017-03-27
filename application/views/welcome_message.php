@@ -148,8 +148,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div><!-- /slide4 -->
 	
 	<!-- === FORM === -->
+	<?= form_open("welcome/registarusuario") ?>
 	<div class="slide story" id="slide-5" data-slide="5">
-		<?= form_open('welcome/registarusuario') ?>
 		<div class="container">
 			<div class="row title-row">
 				<div class="col-12 font-thin"><span class="font-semibold">REGISTER</span> to use FindIt, it's free!</div>
@@ -194,7 +194,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					'class' => 'btn btn-warning'
 				);
 			?>
-			<form>
+		
 				<div class="form-group">
 					<div class="col-3">
 						<?= form_label('Email adress', 'email') ?>
@@ -215,12 +215,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					    <?= form_input($passwordcheck); ?>
 					</div>
 				</div>
-			</form>
+			
 		</div><!-- /container -->
 		<br>
-		<?= form_submit('', 'REGISTER', $buttonstyle) ?>
-		<?= form_close() ?>
+		<?= form_submit('submit', 'REGISTER', $buttonstyle) ?>
 	</div><!-- /FORM -->
+	<?= form_close() ?>
 	
 
 
