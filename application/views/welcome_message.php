@@ -147,8 +147,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div><!-- /container -->
 	</div><!-- /slide4 -->
 	
-	<!-- === Slide 5 === -->
+	<!-- === FORM === -->
 	<div class="slide story" id="slide-5" data-slide="5">
+		<?= form_open('welcome/registarusuario') ?>
 		<div class="container">
 			<div class="row title-row">
 				<div class="col-12 font-thin"><span class="font-semibold">REGISTER</span> to use FindIt, it's free!</div>
@@ -161,33 +162,73 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="col-12 col-sm-10 font-light">If you want to use our service please, enter your data!</div>
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
 			</div><!-- /row -->
+
+
+			
+			<?php
+				$user = array(
+					'name' => 'Enter your name',
+					'placeholder' => 'Enter your name',
+					'class' => 'form-control'
+				);
+				$email = array(
+					'email' => 'Enter your email',
+					'placeholder' => 'Enter your email',
+					'class' => 'form-control'
+				);
+				$password = array(
+					'password' => 'Enter your password',
+					'placeholder' => 'Enter your password',
+					'type' => 'password',
+					'class' => 'form-control'
+				);
+
+				$passwordcheck = array(
+					'password' => 'Enter your password',
+					'placeholder' => 'Enter your password',
+					'type' => 'password',
+					'class' => 'form-control'
+				);
+
+				$buttonstyle = array(
+					'class' => 'btn btn-warning'
+				);
+			?>
 			<form>
 				<div class="form-group">
 					<div class="col-3">
-						<label for="email">Email address</label>
-					    <input type="email" class="form-control" id="email" placeholder="Enter email">
+						<?= form_label('Email adress', 'email') ?>
+					    <?= form_input($email); ?>
 					    <span class="font-semibold"></span>We'll never share your email with anyone else.
 					</div>
 					<div class="col-3">
-						<label for="name">Enter your name</label>
-					    <input type="text" class="form-control" id="name" placeholder="Enter name">
+						<?= form_label('Enter your name', 'user') ?>
+					    <?= form_input($user); ?>
 					</div>
 					<div class="col-3">
-						<label for="password">Enter your password</label>
-					    <input type="password" class="form-control" id="password" placeholder="Enter your password">
+						<?= form_label('Enter your password', 'password') ?>
+					    <?= form_input($password); ?>
 					    <span class="font-semibold"></span>We'll never share your password with anyone else.
 					</div>
 					<div class="col-3">
-						<label for="passwordcheck">Enter your password</label>
-					    <input type="password" class="form-control" id="passwordcheck" placeholder="Verify your password">
+						<?= form_label('Enter your password', 'passwordcheck') ?>
+					    <?= form_input($passwordcheck); ?>
 					</div>
 				</div>
 			</form>
 		</div><!-- /container -->
 		<br>
-		<button type="button" class="btn btn-warning">REGISTER</button>
-	</div><!-- /slide5 -->
+		<?= form_submit('', 'REGISTER', $buttonstyle) ?>
+		<?= form_close() ?>
+	</div><!-- /FORM -->
 	
+
+
+
+
+
+
+
 	<!-- === Slide 6 / Contact === -->
 	<div class="slide story" id="slide-6" data-slide="6">
 		<div class="container">

@@ -22,10 +22,21 @@ class Welcome extends CI_Controller {
 		parent::__construct();
 		$this->load->helper('html');
 		$this->load->helper('url');
+		$this->load->helper('form');
 	}
 
 	public function index()
 	{
 		$this->load->view('welcome_message');
+	}
+
+	public function registrarusuario()
+	{
+		$data = array(
+			'email' => $this->input->post('email'),
+			'user' => $this->input->post('user'),
+			'password' => $this->input->post('password'),
+			'passwordcheck' => $this->input->post('passwordcheck')
+		);
 	}
 }
